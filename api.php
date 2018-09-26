@@ -99,7 +99,7 @@ $logitude = trim(strip_tags(getstr($bin,'longitude":','}}')));
 $prepago = trim(strip_tags(getstr($bin,'"prepaid":',',')));
 $valores = array('R$ 1,00','R$ 5,00','R$ 1,40','R$ 4,80','R$ 2,00','R$ 7,00','R$ 10,00','R$ 3,00','R$ 3,40','R$ 5,50');
 $debitouu = $valores[mt_rand(0,9)];
- echo '<span class="label label-success">#Aprovada ✅ '.$lista.' #nic0la 7esla | Informaçoes | BIN: '.$binn.'</span> <br>';
+ echo '<span class="label label-success">#Aprovada ✅ '.$lista.' #nic0la 7esla | Informacion | BIN: '.$binn.'</span> <br>';
   }
 
 curl_close($ch);
